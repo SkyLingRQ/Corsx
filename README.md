@@ -1,5 +1,7 @@
 <h1 align="center">Corsx</h1>
 
+![Muestra de Corsx](images/corsx.png)
+
 Corsx es una herramienta desarrollada en Python para el escaneo individual o masivo de URLs con el objetivo de detectar posibles vulnerabilidades en la configuración de Cross-Origin Resource Sharing (CORS). Gracias a su implementación basada en asyncio y aiohttp, permite realizar pruebas de forma concurrente y altamente eficiente, reduciendo considerablemente los tiempos de análisis.
 
 # Instalación
