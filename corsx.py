@@ -2,8 +2,6 @@ import asyncio
 import aiohttp
 import random
 from colorama import Fore, init
-from scripts.useragent.user_agent import _useragent_list
-
 init()
 
 rd = Fore.RED
@@ -20,8 +18,7 @@ BLACKLIST_STATUS_CODES = [
 async def scan_cors(url, session):
     urlMal = "evil.com"
     headers = {
-        "Origin": urlMal,
-        "User-Agent": random.choice(_useragent_list)
+        "Origin": urlMal
     }
     url = url.strip()
     try:
